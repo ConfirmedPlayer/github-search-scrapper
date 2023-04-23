@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "github-search-scrapper"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "github_search_scrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = {extras = ["speedups"], version = "^3.8.4"}
+asyncpg = "^0.27.0"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
