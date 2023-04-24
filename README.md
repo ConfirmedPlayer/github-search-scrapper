@@ -3,7 +3,7 @@
 > Парсер результатов поиска с Github
 
 # Установка и запуск
-> На сервере на локалхосте должна быть создана база данных "github-search" в PostreSQL\
+> На сервере на локалхосте должна быть создана база данных "github-search" в PostgreSQL\
 > Также в переменных окружения должны присутстовать логин и пароль от БД и от аккаунта Github [(config.py)](https://github.com/ConfirmedPlayer/github-search-scrapper/blob/5975ed12d3773ef72d5057cee64079b23e636a02/github-search-scrapper/config.py)
 * Склонируйте репозиторий
 * Создайте виртуальное окружение в корневой директории:\
