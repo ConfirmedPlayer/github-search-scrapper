@@ -16,7 +16,7 @@ python -m venv venv
 ./venv/Scripts/activate
 ```
 ```shell
-pip install .\requirements.txt
+pip install -r .\requirements.txt
 ```
 Запуск:
 ```shell
